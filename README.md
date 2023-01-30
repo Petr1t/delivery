@@ -15,7 +15,7 @@ Zu Beginn sollte das "flink_gpx" File ausgeführt werden, da hier die Geo-Daten 
 
 Es ist auch zu beachten, dass ein relativer Filepath für das einlesen der GPX-Daten verwendet wird. Damit das Programm fehlerfrei laufen kann, müssen diese im Ordner "daten" liegen.
 
-Im Rahmen der Analyse der Geo-Daten habe ich auch eine Map aus allen GPX-Datenpunkten erstellt. Da es sich hier um Datenpunkte, die mehr als hundert Fahrt-Stunden umfassen, handelt, sind die Maps entsprechend groß geworden (etwa 40MB). Die entsprechenden Zeilen, die diese Maps erstellen, habe ich auskommentiert, um bei der Ausführung des Codes den Flow nicht zu behindern.
+Im Rahmen der Analyse der Geo-Daten habe ich auch eine Map aus allen GPX-Datenpunkten erstellt. Da es sich hier um Datenpunkte, die mehr als hundert Fahrt-Stunden umfassen, handelt, sind die Maps entsprechend groß geworden (etwa 40MB). Die entsprechenden Zeilen, die diese Maps erstellen, habe ich auskommentiert, um bei der Ausführung des Codes den Flow nicht zu behindern. Dasselbe habe ich auch mit den einzelnen Graphen, die die Datenpunkte einer Schicht beinhalten, getan.
 
 # Kommendes
 Weiterhin werde ich die Fahrten bei meinen Schichten tracken und die neuen Daten in die Analyse einspeisen.
